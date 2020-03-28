@@ -7,6 +7,8 @@ And user enter valid password "Arya2103" in the password field
 And user clicks on the login button
 Then goes to landing page
 
+
+@SmokeTest
 Scenario: user checking search function on adactin application 
 	Given the search page launched 
 	When user selects the location in the location field 
@@ -18,6 +20,7 @@ Scenario: user checking search function on adactin application
 	And user click on Search button 
 	Then user confirms searching hotel successfuly 
 	
+@SanityTest
 Scenario: user checking select hotel function on adactin application 
 	Given the hotel selection page launched 
 	When user Selects the hotel in selection option 
